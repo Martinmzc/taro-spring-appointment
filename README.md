@@ -62,12 +62,18 @@ Default value:
 3. Go to **Login** page:
    - Phone: any numeric string (e.g. `13800000000`)
    - Verification code: fixed value `123456`
+   <img width="388" height="779" alt="image" src="https://github.com/user-attachments/assets/07387b69-4a1a-4040-bf2e-fe4aca872142" />
+
 4. After login, navigate to **Create appointment** page and submit:
    - Service name (string)
    - Date (YYYY-MM-DD)
    - Time slot (string)
+   <img width="373" height="784" alt="image" src="https://github.com/user-attachments/assets/be74034c-e519-42f5-8b84-8d1b39abc928" />
+
 5. Navigate to **My appointments** page:
    - The newly created appointment should appear immediately.
+   <img width="376" height="790" alt="image" src="https://github.com/user-attachments/assets/1b6dc50e-5a76-4fab-9b5e-e3821aee06a8" />
+
 6. Submit the same appointment again with the same values:
    - No duplicate record should be created (idempotency check).
 
